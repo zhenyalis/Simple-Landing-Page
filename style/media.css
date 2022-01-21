@@ -1,0 +1,33 @@
+@media (max-width: 568px) {
+  .header__nav,
+  .header__button {
+    display: none;
+  }
+
+  .header__menu-btn {
+    display: block;
+  }
+  .showcase,
+  .servicess,
+  .blockquote__main {
+    flex-wrap: wrap;
+  }
+  .blockquote__main {
+    padding-bottom: 5px;
+  }
+  .about {
+    flex-wrap: wrap;
+    justify-content: left;
+  }
+  .footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .showcase__gallery {
+    flex-wrap: wrap;
+  }
+  .service__items {
+    flex-wrap: wrap;
+  }
+}

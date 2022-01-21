@@ -20,20 +20,19 @@
       <!-- header -->
       <div class="header">
         <div class="header__container-inner">
-          <img class="header__logo" src=assets/images/about/logo.png>
+          <img class="header__logo" src=assets/about/logo.png>
         </div>
         <div class="header__nav">
           <a class="header__link" href="/">Product</a>
           <a class="header__link" href="/">About</a>
           <a class="header__link" href="/">Contacts</a>
         </div>
-        <div class="header__container-inners">
+        <div class="header__container-inner">
           <button class="header__button">Download Now</button>
         </div>
         <button class="header__menu-btn">
-          <a class="header__menu-btn" href="/">
-            <img src="assets/images/list.svg"
-          /></a>
+          <div class="header__menu-btn"></div>
+          <img src="assets/about/menu.svg" />
         </button>
       </div>
       <!-- hero  -->
@@ -53,23 +52,26 @@
       <div class="about">
         <div class="about__content">
           <h3 class="about__title">Nulla commodo aliqua aliqua ut</h3>
-          <div class="about__articles">
+          <div class="about__article">
             <article class="about__article">
               <p class="about__article-previiew">
                 Tagline Fast and powerful, just like your work Lorem quis sunt
                 magna dolor consectetur aliqua officia laborum reprehenderit
+                <a href="/" class="about__article-link"
+                  >Reaad more
+                  <img src="assets/about/arrow-right.svg" />
+                </a>
               </p>
-              <a href="/" class="about__link"
-                >Reaad more
-                <img src="assets/images/arrow-right.svg" />
-              </a>
             </article>
             <article class="about__article">
               <p class="about__article-previiew">
                 Tagline Fast and powerful, just like your work Lorem quis sunt
                 magna dolor consectetur aliqua officia laborum reprehenderit
+                <a href="/" class="about__article-link">
+                  Reaad more
+                  <img src="assets/about/arrow-right.svg" />
+                </a>
               </p>
-              <a href="/" class="about__link">Reaad more c </a>
             </article>
           </div>
         </div>
@@ -85,56 +87,84 @@
           </p>
         </div>
         <ul class="service__items">
-          <li class="graphic-desing">Graphic Design</li>
-          <li class="ux-desing">UX Design</li>
-          <li class="prototyping">Prototyping</li>
-          <li class="webflow">Webflow</li>
-          <li class="branding">Branding</li>
-          <li class="coding">Coding</li>
-          <li class="back-end">Back-End</li>
+          <li class="service__items">Graphic Design</li>
+          <li class="service__items">UX Design</li>
+          <li class="service__items">Prototyping</li>
+          <li class="service__items">Webflow</li>
+          <li class="service__items">Branding</li>
+          <li class="service__items">Coding</li>
+          <li class="service__items">Back-End</li>
         </ul>
       </div>
       <!-- showcase -->
       <div class="showcase">
-        <p class="showcase_text">Where teams design together</p>
-        <p class="showcase__content">
-          Lorem quis sunt magna dolor consectetur aliqua officia laborum
-          reprehenderit
-        </p>
-        <img class="showcase__logo" src=assets/images/showcase/cat-2.jpg/> <img
-        class="showcase__logo" src=assets/images/showcase/cat-3.jpg> <img
-        class="showcase__logo" src=assets/images/showcase/cat-4.jpg>
+        <div class="showcase__title">
+          <h2 class="showcase__text">Where teams design together</h2>
+          <div class="showcase__content">
+            Lorem quis sunt magna dolor consectetur aliqua officia laborum
+            reprehenderit
+          </div>
+        </div>
+        <div class="showcase__gallery">
+          <img class="showcase__gallery" class="showcase__gallery"
+          src=assets/showcase/cat-2.jpg> <img /> <img class="showcase__gallery"
+          src=assets/showcase/cat-3.jpg><img /> <img class="showcase__gallery"
+          src=assets/showcase/cat-4.jpg><img />
+        </div>
       </div>
+      <!-- blockquote -->
+      <div class="blockquote">
+        <p class="blockquote__title">Nulla commodo aliqua aliqua ut</p>
+        <div class="blockquote-main">
+          <div class="blockquote-card">
+            Tagline Where teams design together Reprehenderit esse labore id
+            veniam ut veniam non ex adipisicing amet ullamco dolor proident.
+            Exercitation velit ea incididunt sit qui do ipsum fugiat laboris
+            minim nostrud dolor qui. Ralph Richards UX Designer
+          </div>
+          <div class="blockquote-card">
+            Tagline Where teams design together Reprehenderit esse labore id
+            veniam ut veniam non ex adipisicing amet ullamco dolor proident.
+            Exercitation velit ea incididunt sit qui do ipsum fugiat laboris
+            minim nostrud dolor qui. Ralph Richards UX Designer
+          </div>
+        </div>
+      </div>
+
       <!-- footer -->
       <div class="footer">
         <div class="footer__logo">
-          <img class="footer__vector" src="images/vertor.png" alt="vertor" />
+          <img
+            class="footer__vector"
+            src="assets/icons/vector.png"
+            alt="vertor"
+          />
         </div>
-        <div class="socials">
-          <div class="socials__title">cillum incididunt</div>
-          <div class="socials__img">
+        <div class="footer__socials">
+          <div class="footer__title">cillum incididunt</div>
+          <div class="footer__icon">
             <img
-              class="socials__icon"
-              src="images/linkedin.svg"
+              class="footer__icon"
+              src="assets/icons/linkedin.png"
               alt="linkedin"
             />
             <img
-              class="socials__icon"
-              src="assets/images/twitter.svg"
+              class="footer__icon"
+              src="assets/icons/facebook.png"
               alt="twitter"
             />
             <img
-              class="socials__icon"
-              src="images/facebook.svg"
+              class="footer__icon"
+              src="assets/icons/twitter.png"
               alt="facebook"
             />
             <img
-              class="socials__icon"
-              src="images/instagram.svg"
+              class="footer__icon"
+              src="assets/icons/instagram.png"
               alt="instagram"
             />
           </div>
-          <div class="socials__desc">
+          <div class="footer__desc">
             Nostrud aliquip laboris © 2020 Wirefigma
           </div>
         </div>
