@@ -5,4 +5,4 @@
 - flex-box;
 - media queries;
 - BEM;
- https://zhenyalis.github.io/Simple-Landing-Page/
+- - https://zhenyalis.github.io/Simple-Landing-Page/
